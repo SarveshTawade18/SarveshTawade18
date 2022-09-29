@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+body {font-family: 'Poppins', sans-serif;	}
+
+.inner_pg_wrap .hero_area {min-height: 70vh;}
+section.banner_section {flex-direction:column;position: absolute;top: 0;bottom: 0;margin: auto;left: 0;right: 0;width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;color: #fff;}
+section.banner_section p {margin: 10px 0px 0px;max-width: 75%;text-align: center;}
+section.banner_section p strong {font-weight: 600;font-size: 20px;}
+
+.breadcrumbs_wrap {background: #f9f5ff;}
+.breadcrumbs_wrap .breadcrumbs {display: flex;margin: 0px 0px 15px;padding: 10px 15px;list-style: none;font-weight: 600;}
+.breadcrumbs_wrap .breadcrumbs li a {color: #ff7500;transition: 0.5s all;}
+.breadcrumbs_wrap .breadcrumbs li a:hover {color: #031b4c;}
+.breadcrumbs_wrap .breadcrumbs .blank_li {margin: 0px 5px;}
+
+
+.tabbing_wrapper {margin: 50px 0px 10px;}
+.tabbing_list ul {position: relative;display: flex;list-style: none;margin: 0px auto;padding:0px;justify-content: center;align-items: center;width: max-content;background: #031b4c;border-radius: 30px;}
+.tabbing_list ul li {margin: 0px;width: 200px;}
+.tabbing_list ul li a {cursor: pointer;color: #fff !important;font-size: 18px;padding: 15px 30px;display: inline-block;font-weight: 500;position: relative;z-index: 999;width: 100%;text-align: center;}
+.tabbing_list ul li a.active {color: #031b4c !important;}
+.tabbing_list ul:before {content: '';position: absolute;width: 20%;height: 85%;border-radius: 30px;background: #fff;left: 4px;transition: 0.5s all;}
+.tabbing_list ul.tab_two:before {left: 20%;}
+.tabbing_list ul.tab_three:before {left: 66%;}
+.tab_cont_item {display: none;}
+.tab_cont_item.active {display:block;}
+
+
+.collection_wrapper.product_section {padding: 0px;}
+.inner_pg_wrap .collection-page h2{text-align: center;color: #031b4c;}
+.inner_pg_wrap .plates-product{display: flex;justify-content: space-between;flex-wrap: wrap;width: 100%;}
+.inner_pg_wrap .product_section .product_container .box{width: 23%;margin: 20px 0px;text-align: center;margin-bottom: 50px;box-shadow: 0px 0px 10px 0px #ccc;border-radius: 15px;}
+.inner_pg_wrap .plate-img{width: 100%;}
+.inner_pg_wrap .product_section .product_container .box img{width: 100%;height: 100%;border-radius: 15px;}
+.readmore_btn {text-align: center;margin: 30px 0px -70px;}
+.readmore_btn a {color: #fff;text-decoration: underline;transition: 0.5s all;font-size: 20px;display: inline-block;}
+.readmore_btn a:hover {color: #ff7500;transform: scale(1.1);}
+
+.collection-page {margin-top: 50px;}
+.prd_desc {padding: 10px 0px;border-top: 1px solid #777;}
+.product_section .product_container .box .detail-box .prd_desc p {margin: 0px;font-size: 12px;text-align: center;color: #555;line-height: 1.7;}
+
+
+
+
+
+
+@media only screen and (max-width: 1300px){
+.inner_pg_wrap .hero_area {min-height: 100vh;}	
+}
+
+
+@media only screen and (max-width: 1200px){
+.inner_pg_wrap .product_section .product_container .box {width: 30%;}
+.tabbing_list ul li{width: 185px;}
+.tabbing_list ul li a{font-size: 16px;}
+
+}
+
+@media only screen and (max-width: 992px){
+.inner_pg_wrap .product_section .product_container .box {width: 45%;}
+.tabbing_list ul li {width: 143px;}
+.tabbing_list ul li a {font-size: 12px;}	
+}
+
+@media only screen and (max-width: 768px){
+.product_section .product_container .box .detail-box .prd_desc p{font-size: 10px;}
+.product_section .product_container .box .new_price{font-size: 18px;}
+.product_section .product_container .box .old_price{font-size: 18px;}
+.product_section .product_container .box .detail-box a, .about_section .detail-box a {padding: 6px 20px;}
+}
+
+@media only screen and (max-width: 580px){
+.banner_head{font-size: 25px;}	
+section.banner_section p{font-size: 14px;}
+.inner_pg_wrap .product_section .product_container .box {width: 45%;margin-bottom: 30px;}	
+.tabbing_list ul li{width: 150px;}
+.product_section .product_container .box .detail-box h4{font-size: 14px;}
+.tabbing_list ul li a{padding: 15px 30px;font-size: 13px;}
+.inner_pg_wrap .collection-page h2 {font-size: 24px;}
+.product_section .product_container .box .new_price{font-size: 12px;}
+.product_section .product_container .box .old_price{font-size: 12px;}
+.product_section .product_container .box .detail-box .prd_desc p{font-size: 8px;}
+.product_section .product_container .box .detail-box a, .about_section .detail-box a{font-size: 8px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
